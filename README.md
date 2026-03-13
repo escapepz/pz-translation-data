@@ -1,23 +1,28 @@
 # pz-translation-data
+
 Provides a dataset for translations of Project Zomboid with the different parameters and properties as well as possible filenames.
 
+> 💡 **Tip:** If the schema fails to load, you may need to add GitHub to your **[Trusted Domains](.github/Troubleshooting_Trusted_Domains.md)**.
+
 # Contributing
+
 To contribute to the dataset, follow these steps to set up your development environment:
+
 1. Clone the repository
 2. Create a virtual environment:
-   ```bash
-   python -m venv .venv
-   ```
+    ```bash
+    python -m venv .venv
+    ```
 3. Activate the virtual environment:
-   - Linux/Mac: `source .venv/bin/activate`
-   - Windows: `.venv\Scripts\activate`
+    - Linux/Mac: `source .venv/bin/activate`
+    - Windows: `.venv\Scripts\activate`
 4. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+    ```bash
+    pip install -r requirements.txt
+    ```
 5. Install pre-commit hooks:
-   ```bash
-   pre-commit install
-   ```
+    ```bash
+    pre-commit install
+    ```
 
 This will format the singular JSON files on each commit, which are used to allow for a single source of truth for all translation files. The smaller JSON files are easier to manage and work with during development.
