@@ -1,16 +1,18 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "RecipeGroups.json Schema",
-    "description": "Recipe groups with RecipeGroup_ prefix",
-    "type": "object",
-    "patternProperties": {
-        "^RecipeGroup_[A-Za-z]+$": {
-            "type": "string",
-            "description": "Pattern: RecipeGroup_{GroupName}\n(e.g., RecipeGroup_OpenBox)"
-        },
-        "^\\$": {
-            "type": "string"
-        }
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RecipeGroups.json Schema",
+  "description": "",
+  "type": "object",
+  "patternProperties": {
+    "^RecipeGroup_[A-Za-z]+$": {
+      "type": "string",
+      "description": ""
     },
-    "additionalProperties": false
+    "^\\$": {
+      "type": "string",
+      "description": ""
+    }
+  },
+  "properties": {},
+  "additionalProperties": false
 }

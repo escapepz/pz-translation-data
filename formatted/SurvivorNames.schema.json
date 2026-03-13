@@ -1,16 +1,18 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "SurvivorNames.json Schema",
-    "description": "Survivor surnames with SurvivorSurname_{LastName} pattern",
-    "type": "object",
-    "patternProperties": {
-        "^Survivor(Name|Surname)_[A-Za-z0-9_\\s\\.'-]+$": {
-            "type": "string",
-            "description": "Pattern: SurvivorName/Surname_{Name}\n(e.g., SurvivorName_Aaron, SurvivorSurname_Simpson)"
-        },
-        "^\\$": {
-            "type": "string"
-        }
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SurvivorNames.json Schema",
+  "description": "All possible automatic character names. Used for random name generation of the player character or for zombies.",
+  "type": "object",
+  "patternProperties": {
+    "^Survivor(Name|Surname)_[A-Za-z0-9_\\s\\.'-]+$": {
+      "type": "string",
+      "description": ""
     },
-    "additionalProperties": false
+    "^\\$": {
+      "type": "string",
+      "description": ""
+    }
+  },
+  "properties": {},
+  "additionalProperties": false
 }

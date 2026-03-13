@@ -1,16 +1,18 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "Recipes.json Schema",
-    "description": "Recipe names in PascalCase",
-    "type": "object",
-    "patternProperties": {
-        "^[A-Za-z0-9_\\(\\): -]+$": {
-            "type": "string",
-            "description": "Pattern: {RecipeName}\n(e.g., MakeBiscuits, base:barley growing season)"
-        },
-        "^\\$": {
-            "type": "string"
-        }
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Recipes.json Schema",
+  "description": "Translations for the craftRecipe scripts. The key needs to be the ID of the craftRecipe block.",
+  "type": "object",
+  "patternProperties": {
+    "^[A-Za-z0-9_\\(\\): -]+$": {
+      "type": "string",
+      "description": ""
     },
-    "additionalProperties": false
+    "^\\$": {
+      "type": "string",
+      "description": ""
+    }
+  },
+  "properties": {},
+  "additionalProperties": false
 }

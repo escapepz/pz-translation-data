@@ -1,10 +1,10 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Print_Text.json Schema",
-  "description": "Raw text content for media items such as newspapers, describing their content.",
+  "title": "IG_UI.json Schema",
+  "description": "Translations for in-game user interface elements.",
   "type": "object",
   "patternProperties": {
-    "^Print_Text_[A-Za-z0-9_]+$": {
+    "^[A-Za-z0-9_\\s:\\./'!-]+$": {
       "type": "string",
       "description": ""
     },

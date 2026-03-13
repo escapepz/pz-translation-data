@@ -1,16 +1,18 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "Entity.json Schema",
-    "description": "Game entities with EC_{PropertyName} pattern",
-    "type": "object",
-    "patternProperties": {
-        "^EC_[A-Za-z_]+$": {
-            "type": "string",
-            "description": "Pattern: EC_{PropertyName}\n(e.g., EC_Entity_DisplayName_Default, EC_Energy_Electric)"
-        },
-        "^\\$": {
-            "type": "string"
-        }
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Entity.json Schema",
+  "description": "Translations for entity scripts.",
+  "type": "object",
+  "patternProperties": {
+    "^EC_[A-Za-z_]+$": {
+      "type": "string",
+      "description": ""
     },
-    "additionalProperties": false
+    "^\\$": {
+      "type": "string",
+      "description": ""
+    }
+  },
+  "properties": {},
+  "additionalProperties": false
 }
