@@ -1,5 +1,5 @@
 version: 1
-name: IGUI
+name: IG_UI
 description: Translations for in-game user interface elements.
 fileName: IG_UI
 keyPrefix: IGUI_

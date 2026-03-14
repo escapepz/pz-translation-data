@@ -72,6 +72,21 @@
       }
     ]
   },
+  "IG_UI": {
+    "name": "IG_UI",
+    "description": "Translations for in-game user interface elements.",
+    "fileName": "IG_UI",
+    "keyPrefix": "IGUI_",
+    "function": "getText",
+    "patternProperties": [
+      {
+        "pattern": "^[A-Za-z0-9_\\s:\\./'!-]+$"
+      },
+      {
+        "pattern": "^\\$"
+      }
+    ]
+  },
   "Sandbox": {
     "name": "Sandbox",
     "description": "Sandbox options translations.",
@@ -96,21 +111,6 @@
     "patternProperties": [
       {
         "pattern": "^BODYPART_[A-Z_]+$"
-      },
-      {
-        "pattern": "^\\$"
-      }
-    ]
-  },
-  "IGUI": {
-    "name": "IGUI",
-    "description": "Translations for in-game user interface elements.",
-    "fileName": "IG_UI",
-    "keyPrefix": "IGUI_",
-    "function": "getText",
-    "patternProperties": [
-      {
-        "pattern": "^[A-Za-z0-9_\\s:\\./'!-]+$"
       },
       {
         "pattern": "^\\$"
